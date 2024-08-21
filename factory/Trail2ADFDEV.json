@@ -1,9 +1,0 @@
-{
-	"name": "Trail2ADFDEV",
-	"location": "centralindia",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "10598bb2-e11c-45a6-b787-4ff13e187ef7",
-		"tenantId": "87be0c06-a5cf-4dfe-9c94-bf38ec0d37d6"
-	}
-}
