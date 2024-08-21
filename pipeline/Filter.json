@@ -1,0 +1,42 @@
+{
+	"name": "Filter",
+	"properties": {
+		"activities": [
+			{
+				"name": "Arraaygreaterthen3",
+				"type": "Filter",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@pipeline().parameters.Arrayofvalues",
+						"type": "Expression"
+					},
+					"condition": {
+						"value": "@greater(item(),3)",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"Arrayofvalues": {
+				"type": "array",
+				"defaultValue": [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		},
+		"folder": {
+			"name": "Trial2Practise"
+		},
+		"annotations": [],
+		"lastPublishTime": "2024-08-11T16:18:06Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
